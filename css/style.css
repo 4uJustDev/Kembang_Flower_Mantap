@@ -334,11 +334,12 @@ body{
 .Body_Forth{
     width: 1168px;
     height: 360px;
-    background-color: #F3F4F6;
+    
     margin: 80px 56px 0px 56px;
 }
 .Body_Forth_Content{
     display: flex;
+    background-color: #F3F4F6;
 }
 .Body_Forth_Text{
     width: 585px;
