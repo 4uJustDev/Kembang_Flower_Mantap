@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,10 @@
     <title>Kembang Flower Mantap</title>
 </head>
 <body>
-    <header>  
-        <div class="Header__Inner">  
+    <div class="container">
+        <header class="Header__Inner">  
             <a href="#">    
-                <img src="img/Header.png" alt="" class="Logo" >
+                <img src="img/Header.svg" alt="" class="Logo" >
             </a>
             <div class="menu">
                 <button class="Header__Search"><img src="img/Header_search.svg" alt="" ></button>
@@ -24,22 +24,20 @@
                 <a href="#" class="Sign__Up">Sign Up</a>
                 <button class="Sign__In">Sign In</button>
             </div>
-        </div>
-    </header>
-    <section class="Body_First">
-        <div class="container">
+        </header>
+    </div>
+    <div class="container">
+        <section class="Body_First">
             <div class="First_Slide">    
                 <img src="/img/First_BODY.jpg" alt="" class="Img_Body_1">
                 <div class="Slide_Content">
                     <div class="Text_1_Slide">
-                        <h3 class="Text_1_Slide_1_1">
+                        <h3 class="Text_1_Slide_1">
                             Kembang Flower Mantap
                         </h3>
-                        <div class="Text_1_Slide_1_2">
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            </p>
-                        </div>                  
+                        <p class="Text_2_Slide_1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        </p>                 
                     </div>
                     <div class="Two_Buttons">
                         <button class="First_Button">
@@ -58,238 +56,150 @@
                         <button class="Second_Button">
                             <div class="Second_Button_Content">
                                 <div class="Second_Button_Content_Slider">
-                                    <div class="Second_Button_Content_Tittle">
-                                        Next
-                                    </div>
+                                    <p class="Second_Button_Content_Tittle">Next</p>
                                     <img src="/img/arrow-forward.svg" alt="">
                                 </div>
-                                <div class="Second_Button_Content_Text">
-                                    Rahasia Plant
-                                </div>                              
+                                <p class="Second_Button_Content_Text">Rahasia Plant</p>                             
                             </div>
                         </button>
                     </div>
                 </div>    
+            </div>  
+        </section>
+    </div>
+    <div class="container">
+        <section class="Body_Second_Catalog_First">
+            <div class="Catalog_1">
+                <a href="#">
+                <div class="Catalog_1_logo">                            
+                    <img src="/img/Car.svg" alt="">               
+                    <p class="Catalog_1_tittle">Fast Delivery</p>                                
+                </div>                            
+                <p class="Catalog_1_text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                </p>                            
+                </a>
             </div>
-        </div>
-        
-    </section>
-    <section class="Body_Second">
-        <div class="container">
-            <div class="Catalog">
-                <div class="Catalog_First">
-                    <div class="Catalog_1_1">
-                        <a href="#">
-                        <div class="Catalog_1_1_logo">                            
-                            <img src="/img/Car.png" alt="">
-                            
-                            <div class="Catalog_1_1_tittle">
-                                Fast Delivery
-                            </div>
-                        </div>
-                        <div class="Catalog_1_1_text">
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                            </p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="Catalog_1_2">
-                        <a href="#">
-                            <div class="Catalog_1_1_logo">                            
-                                <img src="/img/Headphones.png" alt="">
-                                
-                                <div class="Catalog_1_1_tittle">
-                                    Great Customer Service
-                                </div>
-                            </div>
-                            <div class="Catalog_1_1_text">
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                                </p>
-                            </div>
-                            </a>                        
-                    </div>
-                    <div class="Catalog_1_3">
-                        <a href="#">
-                            <div class="Catalog_1_1_logo">                            
-                                <img src="/img/Plant.png" alt="">
-                                
-                                <div class="Catalog_1_1_tittle">
-                                    Original Plants
-                                </div>
-                            </div>
-                            <div class="Catalog_1_1_text">
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                                </p>
-                            </div>
-                            </a>                          
-                    </div>
-                    <div class="Catalog_1_4">
-                        <a href="#">
-                            <div class="Catalog_1_1_logo">                            
-                                <img src="/img/Coin.png" alt="">
-                                
-                                <div class="Catalog_1_1_tittle">
-                                    Affordable Price
-                                </div>
-                            </div>
-                            <div class="Catalog_1_1_text">
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-                                </p>
-                            </div>
-                            </a> 
-                    </div>
-                </div>
-                <div class="Catalog_Second">
-                    <div class="Catalog_2_1">
-                        <div class="Catalog_2_Head">
-                            <div class="Catalog_2_Head_1">
-                                Featured Plants
-                                <button class="Catalog_2_Head_1_Button">
-                                    <div>Cheaper First</div>
-                                    <div class="Catalog_2_Head_1_Button_Img">
-                                        <img src="/img/chevron-down.svg" alt="" >  
-                                    </div>  
-                                </button>
-                            </div>
-                        </div>
-                        <div class="Catalog_2_Body">
-                            <div class="Catalog_2_Body_1">
-                                <img src="/img/First_Flower.jpg" alt="">
-                                <div class="Catalog_2_Body_1_Name">
-                                    Kaktus Plants
-                                </div>
-                                <div class="Catalog_2_Body_1_Price">
-                                    IDR 85.000
-                                </div>
-                            </div>
-                            <div class="Catalog_2_Body_1">
-                                <img src="/img/Second_Flower.jpg" alt="">
-                                <div class="Catalog_2_Body_1_Name">
-                                    Landak Plants
-                                </div>
-                                <div class="Catalog_2_Body_1_Price">
-                                    IDR 105.000
-                                </div>
-                            </div>
-                            <div class="Catalog_2_Body_1">
-                                <img src="/img/Third_Flower.jpg" alt="">
-                                <div class="Catalog_2_Body_1_Name">
-                                    Kecubung Plants
-                                </div>
-                                <div class="Catalog_2_Body_1_Price">
-                                    IDR 85.000
-                                </div>
-                            </div>
-                            <div class="Catalog_2_Body_1">
-                                <img src="/img/Forth_Flower.jpg" alt="">
-                                <div class="Catalog_2_Body_1_Name">
-                                    Kecubung Plants
-                                </div>
-                                <div class="Catalog_2_Body_1_Price">
-                                    IDR 85.000
-                                </div>
-                            </div>
-                            <div class="Catalog_2_Body_1">
-                                <img src="/img/Fifth_Flower.jpg" alt="">
-                                <div class="Catalog_2_Body_1_Name">
-                                    Kecubung Plants
-                                </div>
-                                <div class="Catalog_2_Body_1_Price">
-                                    IDR 85.000
-                                </div>
-                            </div>
-                        </div> 
-                    </div>                             
+            <div class="Catalog_1">
+                <a href="#">
+                <div class="Catalog_1_logo">                            
+                    <img src="/img/Headphones.svg" alt="">                                
+                    <p class="Catalog_1_tittle">Great Customer Service</p>                                
+                </div>                            
+                <p class="Catalog_1_text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                </p>                            
+                </a>
+            </div>
+            <div class="Catalog_1">
+                <a href="#">
+                <div class="Catalog_1_logo">                            
+                    <img src="/img/Plant.svg" alt="">                                
+                    <p class="Catalog_1_tittle">Original Plants</p>                                
+                </div>                            
+                <p class="Catalog_1_text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                </p>                            
+                </a>
+            </div>
+            <div class="Catalog_1">
+                <a href="#">
+                <div class="Catalog_1_logo">                            
+                    <img src="/img/Coin.svg" alt="">                                
+                    <p class="Catalog_1_tittle">Affordable Price</p>                                
+                </div>                            
+                <p class="Catalog_1_text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                </p>                            
+                </a>
+            </div>
+        </section >
+    </div>
+    <div class="container">
+        <section class="Body_Second_Catalog_Second">
+            <div class="Catalog_2_Head">
+                <div class="Catalog_2_Head_1">  
+                    Featured Plants
+                    <button class="Catalog_2_Head_1_Button">
+                        <p>Cheaper First</p>    
+                        <img src="/img/chevron-down.svg" alt="" class="Catalog_2_Head_1_Button_Img">  
+                     </button>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="Body_Third">
-        <div class="container">
-            <div class="Body_Third_Content">
-                <div class="Body_Third_1">
-                    <div class="Body_Third_1_Text">
-                        <div class="Body_Third_1_Text_1">
-                            Buy more plants, it helps you to be relaxed 
-                        </div>
-                        <div class="Body_Third_1_Text_2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.
-                        </div>                 
-                    </div>
-                    <img src="/img/Third_BODY.jpg" alt="">
+            <div class="Catalog_2_Body">
+                <div class="Catalog_2_Body_1">
+                    <img src="/img/First_Flower.jpg" alt="">                    
+                    <p class="Catalog_2_Body_1_Name">Kaktus Plants</p>                  
+                    <p class="Catalog_2_Body_1_Price">IDR 85.000</p>                    
                 </div>
-                <div class="Body_Third_2">
-                    <img src="/img/Second_BODY.jpg" alt="">
+                <div class="Catalog_2_Body_1">
+                    <img src="/img/Second_Flower.jpg" alt="">                    
+                    <p class="Catalog_2_Body_1_Name">Landak Plants</p>                  
+                    <p class="Catalog_2_Body_1_Price">IDR 105.000</p>                    
                 </div>
+                <div class="Catalog_2_Body_1">
+                    <img src="/img/Third_Flower.jpg" alt="">                    
+                    <p class="Catalog_2_Body_1_Name">Kecubung Plants</p>                  
+                    <p class="Catalog_2_Body_1_Price">IDR 85.000</p>                    
+                </div>
+                <div class="Catalog_2_Body_1">
+                    <img src="/img/Forth_Flower.jpg" alt="">                    
+                    <p class="Catalog_2_Body_1_Name">Kecubung Plants</p>                  
+                    <p class="Catalog_2_Body_1_Price">IDR 85.000</p>                    
+                </div>
+            </div>                             
+        </section>
+    </div>
+    <div class="container">
+        <section class="Body_Third">
+            <div class="Body_Third_1">
+                <div class="Body_Third_Text">
+                    <p class="Body_Third_Text_1">Buy more plants, it helps you to be relaxed</p>                
+                    <p class="Body_Third_Text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</p>               
+                </div>
+                <img src="/img/Third_BODY.jpg" alt="">
+            </div>            
+            <img src="/img/Second_BODY.jpg" alt="">            
+        </section>
+    </div>
+    <div class="container">
+        <section class="Body_Forth">           
+            <div class="Body_Forth_Text">               
+                <p class="Body_Forth_Tittle">Get your favourites plant on our shop now</p>
+                <a href="#">
+                    <p class="Body_Forth_Link">Visit Shop</p>
+                </a>                                    
             </div>
-        </div>
-    </section>
-    <section class="Body_Forth">
-        <div class="container">
-            <div class="Body_Forth_Content">
-                <div class="Body_Forth_Text">   
-                    <div class="Body_Forth_Tittle">
-                        Get your favourites plant on our shop now
-                    </div>
-                    <button class="Body_Forth_Button">
-                        Visit Shop
-                    </button>                    
-                </div>
-                <img src="/img/Forth_BODY.jpg" alt="" class="Body_Forth_Img">
-            </div>
-        </div>        
-    </section>
-    <footer class="Footer">
-        <div class="container">
+            <img src="/img/Forth_BODY.jpg" alt="">                             
+        </section>
+    </div>
+    <div class="container">
+        <footer class="Footer">
             <div class="Footer_Content">
-                <div class="Footer_1">
-                    <div class="Footer_1_1">
-                        plantku
-                    </div>
-                    <div class="Footer_1_2">
-                        Plantku House
-                    </div>
-                    <div class="Footer_1_3">
-                        Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282
-                    </div>  
+                <div class="Footer_1">                
+                    <p class="Footer_1_1">plantku</p>                   
+                    <p class="Footer_1_2">Plantku House</p>                    
+                    <p class="Footer_1_3">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
                 </div>
-                <div class="Footer_2">
-                    <div class="Footer_2_1">
-                        Perusahaan
-                    </div>
-                    <div class="Footer_2_2">
-                        Tentang Kami
-                    </div>
-                    <div class="Footer_2_3">
-                        Hubungi Kami
-                    </div>
+                <div class="Footer_2">                    
+                    <p class="Footer_2_1">Perusahaan</p>                    
+                    <p class="Footer_2_2">Tentang Kami</p>                   
+                    <p class="Footer_2_3">Hubungi Kami</p>                    
                 </div>
-                <div class="Footer_3">               
-                    <div class="Footer_3_1">
-                        Produk
-                    </div>
-                    <div class="Footer_3_2">
-                        Tanaman
-                    </div>
-                    <div class="Footer_3_3">
-                        Tanaman Lain
-                    </div>
+                <div class="Footer_2">                   
+                    <p class="Footer_2_1">Produk</p>                    
+                    <p class="Footer_2_2">Tanaman</p>                   
+                    <p class="Footer__3">Tanaman Lain</p>                    
                 </div>
-                <div class="Footer_4">
-                    <div class="Footer_4_1">
-                        Berlangganan Email Kami
-                    </div>
+                <div class="Footer_4">                    
+                    <p class="Footer_4_1">Berlangganan Email Kami</p>                   
                     <form action="">
                         <input type="text" name="" id="" placeholder="Masukan Alamat Email" class="Footer_4_2">
                         <button type="submit" class="Footer_4_3">Submit</button>
                     </form>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
