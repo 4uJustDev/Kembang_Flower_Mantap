@@ -143,39 +143,24 @@ header {
   display: flex;
   flex-direction: column;
   height: 160px;
+  width: 266px;
 }
-
 .First_Button_Content {
-  width: 268px;
-  height: 83px;
-  margin: 37px 0px 0px 0px;
-}
-.First_Button_Content_Slider {
-  width: 145px;
-  height: 32px;
+  display: flex;
+  margin-top: 39px;
   color: #333333;
   opacity: 50%;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-}
-.First_Button_Content_Tittle {
-  width: 105px;
-  height: 29px;
-  font-style: normal;
   font-size: 24px;
   line-height: 29px;
 }
-.First_Button_Content_Text {
+.First_Button_Text {
   width: 208px;
   height: 29px;
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
   color: #156963;
-  margin: 12px 0px 0px 4px;
+  margin: 12px 0px 0px 5px;
 }
 .Second_Button {
   width: 320px;
@@ -183,33 +168,24 @@ header {
   background-color: #156963;
 }
 .Second_Button_Content {
-  width: 222px;
-  height: 83px;
-  margin: 0px 0px 0px 49px;
-}
-.Second_Button_Content_Slider {
-  width: 97;
+  width: 97px;
   height: 32px;
   color: #f2f2f2;
   opacity: 50%;
   display: flex;
-}
-.Second_Button_Content_Tittle {
-  width: 57px;
-  height: 29px;
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+  margin-left: 49px;
 }
-.Second_Button_Content_Text {
+.Second_Button_Text {
   margin-top: 8px;
-  font-style: normal;
+  width: 222px;
   font-weight: 500;
   font-size: 30px;
   line-height: 39px;
   color: #fff;
-  left: 0;
+  margin: 12px 0px 0px 42px;
 }
 /*Body Second (Catalog 1)*/
 .Body_Second_Catalog_First {
@@ -240,7 +216,6 @@ header {
   height: 48px;
   margin: 0px 0px 0px 16px;
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -271,8 +246,7 @@ header {
 }
 .Catalog_2_Head_1 {
   height: 31px;
-  padding: 3.5;
-  font-style: normal;
+  padding: 3.5px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -282,7 +256,6 @@ header {
 .Catalog_2_Head_1_Button {
   height: 31px;
   padding: 8px 12px;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
@@ -311,14 +284,12 @@ header {
 .Catalog_2_Body_1_Name {
   height: 20px;
   padding-top: 16px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }
 .Catalog_2_Body_1_Price {
   height: 20px;
   padding-top: 8px;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
 }
@@ -345,7 +316,6 @@ header {
   margin: 10px 25px 0px 21px;
 }
 .Body_Third_Text_1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
@@ -353,7 +323,6 @@ header {
 }
 .Body_Third_Text_2 {
   height: 140px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -372,7 +341,6 @@ header {
   margin: 88px 43px 88px 97px;
 }
 .Body_Forth_Tittle {
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
@@ -385,7 +353,6 @@ header {
   color: #fff;
   background-color: #156963;
   font-family: "Nunito", sans-serif;
-  font-style: normal;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
@@ -458,7 +425,7 @@ header {
   font-size: 16px;
   height: 30px;
 }
-.Footer_4_2 {
+#Footer_4_2 {
   width: 234px;
   height: 32px;
   font-weight: 400;
