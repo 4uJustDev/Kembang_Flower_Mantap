@@ -5,6 +5,9 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 */
+:root {
+  --main: #156963;
+}
 /*FONTS*/
 a {
   color: #2c1500;
@@ -33,10 +36,10 @@ input {
 /*BODY*/
 body {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: 1280px;
-  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   margin: 0 auto;
 }
@@ -75,20 +78,17 @@ header {
 .Sign__Up {
   width: 91px;
   margin: 0px 0px 0px 8px;
-  color: #156963;
+  color: var(--main);
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
-  /*border-style: solid;
-    border-color:#156963;
-    border-width: 2px;*/
   padding: 8px;
 }
 .Sign__In {
   width: 111px;
   height: 36px;
   color: #fff;
-  background-color: #156963;
+  background-color: var(--main);
   font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
@@ -116,17 +116,15 @@ header {
 }
 .Text_1_Slide_1 {
   height: 166px;
-  font-family: "Montserrat", sans-serif;
   font-size: 68px; /*68*/
   font-weight: 500;
   line-height: 82.89px;
-  color: #156963;
+  color: var(--main);
 }
 .Text_2_Slide_1 {
   height: 96px;
   width: 493px;
   margin-top: 24px;
-  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -159,13 +157,13 @@ header {
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  color: #156963;
+  color: var(--main);
   margin: 12px 0px 0px 5px;
 }
 .Second_Button {
   width: 320px;
   height: 160px;
-  background-color: #156963;
+  background-color: var(--main);
 }
 .Second_Button_Content {
   width: 97px;
@@ -197,7 +195,6 @@ header {
 }
 .Catalog_1 {
   width: 268px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 16px;
@@ -215,11 +212,10 @@ header {
   width: 137px;
   height: 48px;
   margin: 0px 0px 0px 16px;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: #156963;
+  color: var(--main);
 }
 .Catalog_1_text {
   width: 236px;
@@ -265,7 +261,7 @@ header {
 }
 .Catalog_2_Head_1_Button_Img {
   width: 12px;
-  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
 .Catalog_2_Body {
   width: 1168px;
@@ -283,13 +279,13 @@ header {
 }
 .Catalog_2_Body_1_Name {
   height: 20px;
-  padding-top: 16px;
+  margin-top: 16px;
   font-weight: 400;
   font-size: 16px;
 }
 .Catalog_2_Body_1_Price {
   height: 20px;
-  padding-top: 8px;
+  margin-top: 8px;
   font-weight: 600;
   font-size: 16px;
 }
@@ -351,7 +347,7 @@ header {
   margin-top: 32px;
   padding-top: 10px;
   color: #fff;
-  background-color: #156963;
+  background-color: var(--main);
   font-family: "Nunito", sans-serif;
   font-size: 12px;
   line-height: 20px;
@@ -380,7 +376,7 @@ header {
   font-family: "Work Sans", sans-serif;
 }
 .Footer_1_1 {
-  color: #156963;
+  color: var(--main);
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   margin-bottom: 24px;
@@ -438,7 +434,7 @@ header {
   font-family: "Nunito", sans-serif;
   font-size: 8px;
   color: #fff;
-  background-color: #156963;
+  background-color: var(--main);
   padding: 4px 12px;
   border-radius: 2px;
 }
