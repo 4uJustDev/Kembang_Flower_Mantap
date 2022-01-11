@@ -611,3 +611,121 @@ input[type="checkbox"] {
   padding: 0;
   width: 13px;
 }
+/*laba 9*/
+.laba_9 {
+  margin-top: 50px;
+}
+.ex1 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 40px 60px 20px 60px;
+  border-radius: 10px;
+  background: #faf7f3;
+  display: flex;
+}
+.ex1 div {
+  margin: auto;
+  padding: 2em;
+  width: 100px;
+}
+.ex1 p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.linear {
+  background-image: repeating-linear-gradient(
+    0.3turn,
+    #bbb1af 0 10px,
+    #f5e1d4 10px 20px
+  );
+}
+.radius {
+  background-image: radial-gradient(#bbb1af, #f5e1d4);
+}
+.conic {
+  background-image: conic-gradient(#bbb1af, #f5e1d4, #f5e1d4, #bbb1af);
+}
+legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+.up-turn_div {
+  width: 30px;
+  height: 50px;
+  margin: 0 auto;
+}
+.up-turn {
+  width: 10px;
+  height: 10px;
+  transition: 1s;
+  background-color: #bbb1af;
+  border-radius: 50%;
+}
+.up-turn:hover {
+  width: 10px;
+}
+.ex1-p {
+  margin-top: 50px;
+}
+.left-turn {
+  width: 10px;
+  height: 10px;
+  background-color: #e0cabb;
+  transition: ease-in-out 1s;
+  position: relative;
+  border-radius: 50%;
+  left: 50px;
+}
+.left-turn:hover {
+  left: -50px;
+}
+.roll {
+  display: inline-block;
+  margin: 0 auto;
+}
+.roll-ex {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb1af;
+  border: 2px solid #64531b;
+  transition: ease-out 2s;
+}
+.roll-ex2 {
+  width: 10px;
+  height: 10px;
+  background-color: #e0cabb;
+  border: 2px solid #64531b;
+  transition: ease-out 2s;
+}
+.roll-ex:hover {
+  transform: rotateX(214deg) perspective(700px);
+  transform-origin: center center;
+}
+.roll-ex2:hover {
+  transform: rotateX(248deg) rotateY(8deg) rotateZ(289deg) perspective(700px);
+  transform-origin: center center;
+}
+.move-ex {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb1af;
+  border: 2px solid #64531b;
+  transition: 1s;
+}
+.move-ex:hover {
+  transform: rotate(36deg) translate(50px, 0px);
+  transform-origin: center center;
+}
+.move-ex2 {
+  width: 10px;
+  height: 10px;
+  background-color: #e0cabb;
+  border: 2px solid #64531b;
+  transition: 1s;
+}
+.move-ex2:hover {
+  transform: rotate(-100deg) scale(1.4) translate(50px, 50px);
+  transform-origin: center center;
+}
