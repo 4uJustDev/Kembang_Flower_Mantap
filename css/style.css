@@ -599,7 +599,6 @@ input[type="checkbox"]:checked + label {
 .checkbox2 {
   font-family: "Nunito", sans-serif;
   font-style: normal;
-  font-weight: 1px;
 }
 .checkbox2:hover {
   color: rgb(0, 149, 255);
