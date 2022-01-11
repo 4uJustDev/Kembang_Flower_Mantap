@@ -16,7 +16,7 @@
     <div class="Wrapper">
         <div class="container">
             <header class="Header__Inner">  
-                <a href="index.html" class="Logo">    
+                <a href="index.html" class="Logo_Form">    
                     <img src="img/Header.svg" alt="" >
                 </a>
                 <div class="menu">
@@ -57,10 +57,40 @@
                     </fieldset>
                     <div class="Form_Buttons_1">
                         <button type="submit" class="Form_Button_1">Send</button>
-                        <button type="reset" class="Form_Reset_1"><img src="img/reset.svg" alt="«Reset data in fileds»" class="img-reset"></button>
+                        <button type="reset" class="Form_Reset_1" disabled><img src="img/reset.svg" alt="«Reset data in fileds»" class="img-reset"></button>
                     </div>
                 </form>
-            </div>   
+            </div>
+            <div class="Form_2">
+                <form name="psefdo" method="POST" data-netlify="true" class="Form_Body_2">
+                    <dl>
+                        <dt>Псевдоэлемент</dt>
+                        <dd>
+                            Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать определённую часть выбранного элемента. 
+                            Например, псевдоэлемент ::first-line может быть использован для изменения шрифта первой строки абзаца.
+                        </dd>
+                        <dt>Псевдокласс</dt>
+                        <dd>
+                            Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое состояние.
+                            Например, :hover может быть использован для изменения цвета кнопки при наведении курсора на неё.
+                        </dd>
+                    </dl>
+                    <p class="color_main">Псевдоклассы</p>
+                    <p class="checkbox1"><input type="checkbox" id="cb1" checked> <label for="cb1">:active</label></p>	
+                    <p class="checkbox2"><input type="checkbox" id="cb2" checked> <label for="cb2" >:checked</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb3" checked> <label for="cb3">:hover</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb4" checked> <label for="cb4">:focus</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb5" >        <label for="cb5">:not()</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb6" checked> <label for="cb6">:root</label></p>
+                    <p class="color_main">Псевдоэлементы</p>
+                    <p class="checkbox1"><input type="checkbox" id="cb7" checked> <label for="cv1">::after</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb8">         <label for="cv2">::slotted</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb9" checked> <label for="cv3">::before</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb10" checked> <label for="cv4">::first-letter</label></p>
+                    <p class="checkbox1"><input type="checkbox" id="cb11">         <label for="cv5">::first-line</label></p>
+                    <p class="checkbox2"><input type="checkbox" id="cb12" checked> <label for="cv6">::selection</label></p>
+                </form>
+            </div>    
             <footer class="Footer">
                 <div class="Footer_Content">
                     <div class="Footer_1">                

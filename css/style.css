@@ -466,16 +466,12 @@ fieldset {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  width: 400px;
 }
 .Form_Tittle_1 {
   margin: 20px;
   text-align: center;
-}
-form {
-  /* Расположим форму по центру страницы */
-  margin: 0 auto;
-  width: 400px;
-  /* Определим контур формы */
 }
 .Form_Button_1 {
   width: 90px;
@@ -489,7 +485,7 @@ form {
 }
 .Form_Reset_1 {
   align-items: center;
-  height: 32px;
+  height: 36px;
 }
 .Form_Buttons_1 {
   display: flex;
@@ -518,18 +514,37 @@ button {
   margin-left: 0.5em;
 }
 /*laba 8*/
+
+::selection {
+  color: #fff;
+  background-color: var(--main);
+}
+.Body_Forth_Link:hover,
 button:hover {
   background-color: cadetblue;
   border: solid 2px black;
+  box-shadow: 0 2px 4px black;
   color: black;
 }
+button:active {
+  background-color: black;
+  color: #fff;
+}
+button:focus {
+  border: solid 2px black;
+  box-shadow: 0 2px 4px black;
+}
 a:hover {
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(240, 240, 240);
   box-shadow: 0 2px 4px black;
   border-radius: 5px;
 }
 a:focus {
   color: blue;
+}
+a:active {
+  background-color: black;
+  color: #fff;
 }
 ::placeholder {
   font-family: "Nunito", sans-serif;
@@ -537,4 +552,63 @@ a:focus {
   color: var(--main);
   opacity: 0.3;
   font-style: italic;
+}
+.Logo_Form {
+  height: 36px;
+}
+a:focus.Logo_Form {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 2px 4px black;
+}
+/*Form_2 */
+.Form_2 {
+  margin: 0 auto;
+}
+.Form_Body_2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+dt::first-letter {
+  font-size: 2em;
+  color: var(--main);
+}
+dt {
+  font-weight: bold;
+  text-align: center;
+}
+dd:before {
+  content: "\1F6C8";
+}
+dd {
+  padding: 0;
+  margin: 0;
+  width: 600px;
+}
+.color_main {
+  color: var(--main);
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+/**/
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.checkbox2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 1px;
+}
+.checkbox2:hover {
+  color: rgb(0, 149, 255);
+}
+.checkbox1:hover {
+  color: rgb(238, 0, 255);
+}
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 13px;
 }
